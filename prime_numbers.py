@@ -1,7 +1,6 @@
 print("Program sprawdzi czy istnieją liczby pierwsze mniejsze od podanej przez użytkownika")
 
-x = input("Podaj liczbę: ")
-y = int(x)
+y = int(input("Podaj liczbę: "))
 
 lista = list(range(2,y+1))
 i = y - 1
