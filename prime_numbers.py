@@ -12,7 +12,7 @@ for liczba in range (2,y+1):
 while y>1:
     while i>1:
         wynik = y/i
-        if lista.__contains__(wynik):
+        if wynik in lista:
             lista.remove(y)
             break
         i -= 1
