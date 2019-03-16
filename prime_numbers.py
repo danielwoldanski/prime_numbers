@@ -3,11 +3,8 @@ print("Program sprawdzi czy istnieją liczby pierwsze mniejsze od podanej przez 
 x = input("Podaj liczbę: ")
 y = int(x)
 
-lista=[]
+lista = list(range(2,y+1))
 i = y - 1
-
-for liczba in range (2,y+1):
-    lista.append(liczba)
 
 while y>1:
     while i>1:
