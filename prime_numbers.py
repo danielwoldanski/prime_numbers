@@ -7,8 +7,8 @@ i = y - 1
 
 while y>1:
     while i>1:
-        wynik = y/i
-        if wynik in lista:
+        wynik = y/i            # Or you can use: wynik = y % i     ##
+        if wynik in lista:     # if wynik == 0:                    ##
             lista.remove(y)
             break
         i -= 1
